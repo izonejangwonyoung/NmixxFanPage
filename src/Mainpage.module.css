@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main_title {
+    color: black;
+    font-family: KOFIHDrLEEJWTTF-B;
+margin-left: 3%;
+    margin-top: 3%;
+}
+
+.description {
+    color: black;
+    font-family: KOFIHDrLEEJWTTF-B;
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: 'KOFIHDrLEEJWTTF-B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/KOFIHDrLEEJWTTF-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+img {
+    width: 1000px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+}
