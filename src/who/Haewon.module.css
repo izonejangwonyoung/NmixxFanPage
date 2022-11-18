@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: KOFIHDrLEEJWTTF-B;
+}
+
+@font-face {
+    font-family: 'KOFIHDrLEEJWTTF-B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/KOFIHDrLEEJWTTF-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.img_haewon{
+    width: 10px;
+}
+table{
+    border-right: 130px;
+    border-collapse: separate;
+    width: 500px;
+    text-align: center;
+    border:1px solid #282c34;
+    /*margin-top: 10px;*/
+}
+
+th,td{
+    border:1px solid #282c34;
+}
+button{
+    border: 0px;
+}

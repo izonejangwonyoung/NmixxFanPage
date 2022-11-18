@@ -3,12 +3,18 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainNavbar from "./Navbar";
 import Mainpage from "./Mainpage";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Haewon from "./who/Haewon";
 function App() {
   return (
-  <>
-<MainNavbar/>
-      <Mainpage/>
-  </>
+  <div>
+          <MainNavbar/>
+
+      <Routes>
+          <Route path="who/Haewon" element={<Haewon/>}></Route>
+      </Routes>
+
+  </div>
       );
 }
 
