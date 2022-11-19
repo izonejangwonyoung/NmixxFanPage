@@ -11,7 +11,7 @@ function Mainpage() {
                 다양성을 상징하는 단어 'MIX'의 합성어로서 '새로운 시대를 책임질 최상의 조합'
                 이라는 의미를 갖고 있다.
             </div>
-            <img src={nmixx_mainpage} alt="sds" />
+            <img className={styles.main_img} src={nmixx_mainpage} alt="sds" />
         </div>
     )
 }
