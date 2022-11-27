@@ -54,6 +54,8 @@ function Haewon() {
                 >
             <Button className={styles.button} variant="outline-danger" onClick={()=>setCount(count-1)}>-1</Button>
                 </OverlayTrigger>
+
+
             </div>
             <div className={styles.main_text}>
 

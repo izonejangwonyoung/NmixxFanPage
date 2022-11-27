@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: #E5E5E5;
 }
 
 .main_title {
@@ -34,5 +33,4 @@
     margin-top: 150px;
     max-width: 100%;
     max-height: 50%;
-    object-fit: cover;
-}
+    object-fit: cover;}
