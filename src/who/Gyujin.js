@@ -1,12 +1,12 @@
 import styles from "./Haewon.module.css"
-import haewon_img from "../lilly.jpg"
+import haewon_img from "../gyujin.jpg"
 import {useRef, useState} from "react";
 import {FaHeartBroken, FaRegHeart} from "react-icons/fa";
 import data from "./data.json"
 import {GiShatteredHeart} from "react-icons/gi";
 import {Button, Overlay, OverlayTrigger, Tooltip} from "react-bootstrap";
 
-function Lilly() {
+function Gyujin() {
     let now = new Date();
     let nowYear = now.getFullYear();
     const renderTooltip = (props) => (
@@ -20,21 +20,20 @@ function Lilly() {
     return (
 
         <div>
-            <h4 className={styles.nameplace}>Who Is Haewon?</h4>
+            <h4 className={styles.nameplace}>Who Is Gyujin?</h4>
             <div className={styles.wrap}>
                 <img className={styles.img_haewon} src={haewon_img} alt=""/>
                 <table className={styles.table}>
                     <tr>
                         <td className={styles.td}>이름</td>
-                        <td className={styles.td}>Lily Jin Park Morrow (릴리 진 박 머로우)
-                        </td>
+                        <td className={styles.td}>장규진</td>
                     </tr>
                     <tr>
                         <td className={styles.td}>
                             나이
                         </td>
                         <td className={styles.td}>
-                            2003.02.25({nowYear - 2003}세)
+                            2006.05.26({nowYear - 2006}세)
                         </td>
                     </tr>
                 </table>
@@ -61,13 +60,15 @@ function Lilly() {
             <div className={styles.main_text}>
 
                 <h2>개요</h2>
-                <p>JYP엔터테인먼트 소속 7인조 걸그룹 NMIXX의 멤버이며, 리더와 보컬을 맡고 있다.</p>
+                <p>대한민국의 가수. JYP엔터테인먼트 소속 6인조 걸그룹 NMIXX의 막내이며 보컬, 랩, 댄스와 안무 단장을 맡고 있다.
+                </p>
                 <h2>데뷔 전</h2>
-                <p>2017년 열린 'JYP 걸그룹 오디션'에 합격해 입사했다.
-                    오디션 곡은 비욘세의 Halo라고 한다.
-                    쇼케이스 후기마다 호평이 가득해 JYP 팬들 사이에서 유명했던 연습생이었다.<br/>
-                    트와이스 나연도, 연습생 월말 평가를 보러 갔을 때 JYP 직원이 해원을 노래도 굉장히 잘 하고 춤도 잘 추는 친구라며 이야기해주었는데 <br/>그 때 해원이 노래를 불렀던 게 기억에 남는다고 언급하기도 했다.
-                    2021년 11월 5일 퍼포먼스 영상이 공개되었고, 11월 12일 유튜브 게릴라 라이브를 진행하였다. 11월 26일 릴리와의 듀엣 영상이 공개되었다. <br/>2022년, 약 5년간의 연습생 생활 끝에 데뷔하게 되었다.</p>
+                <p>NMIXX는 공식적인 포지션은 없지만 보컬, 비주얼, 랩, 댄스 등 여러 면에서 능력치가 뛰어나다.
+
+                    갓 18살이 된 막내임에도 불구하고 흠잡을 곳 없는 NMIXX의 대표적인 올라운더 멤버이다. 특히 DICE에선 도입부부터 임팩트 있는 파트를 맡아 사실상 센터라는 의견이 많다.
+
+                    또한 댄스라인이고 막내임에도 안무단장까지 담당하는 것을 보면 사실상 메인댄서라고도 볼 수 있다.
+                </p>
 
             </div>
         </div>
@@ -96,4 +97,4 @@ function ShowHeart(props) {
 
 }
 
-export default Lilly;
+export default Gyujin;

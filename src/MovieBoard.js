@@ -9,7 +9,6 @@ function MovieBoard() {
     const [movie, setMovie] = useState([]);
     const [item, setItem] = useState("");
     const key = process.env.REACT_APP_API_KEY;
-    console.log(key);
     const query = encodeURIComponent(item);
     const url = `http://www.kobis.or.kr/kobisopenapi/webservice/rest/movie/searchMovieList.json?key=${key}&movieNm=${query}`;
 
@@ -39,8 +38,8 @@ function MovieBoard() {
     return (
         <div className="App">
             <header className="App-header">
-                <h2>영화 검색</h2>
-                  <SearchBar onClick={fetchMovie} onChange={searchItem}></SearchBar>
+                <h2 style={{position:"relative",top:"-15rem"}}>영화 검색</h2>
+                  <SearchBar onClick={fetchMovie} onChange={searchItem} ></SearchBar>
 <Result movie={movie}></Result>
             </header>
         </div>
@@ -55,14 +54,15 @@ function SearchBar({ onClick, onChange }) {
 
     return (
         <>
-            <div className="input-group">
+            <div className="input-group" style={{width: "20rem", marginBottom: "20px"}}>
                 <input
+                    style={{width:"100px"}}
                     type="search"
                     className="form-control rounded"
                     placeholder="영화 이름 입력"
                     onChange={onChange} onKeyDown={handleKeyPress}
                 />
-                <button type="button" id="search_btn" onClick={onClick} >
+                <button type="button" id="search_btn" onClick={onClick} style={{borderRadius: "10px", marginLeft: "3px"}}>
                     <BiSearchAlt2 className="search_icon"></BiSearchAlt2>
                 </button>
             </div>

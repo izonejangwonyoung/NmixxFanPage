@@ -21,7 +21,7 @@ function MainNavBar() {
                             <NavDropdown.Item ><Link to="who/Haewon" style={{textDecoration:"none" ,color:"black",display:"block" }}>해원</Link></NavDropdown.Item>
                             <NavDropdown.Item ><Link to="who/lilly" style={{textDecoration:"none" ,color:"black",display:"block"}}>릴리</Link></NavDropdown.Item>
                             <NavDropdown.Item ><Link to="who/Sullyoon" style={{textDecoration:"none" ,color:"black",display:"block"}}>설윤</Link></NavDropdown.Item>
-                            <NavDropdown.Item ><Link to="who/Jinni" style={{textDecoration:"none" ,color:"black",display:"block"}}>지니</Link></NavDropdown.Item>
+                            {/*<NavDropdown.Item ><Link to="who/Jinni" style={{textDecoration:"none" ,color:"black",display:"block"}}>지니</Link></NavDropdown.Item>*/}
                             <NavDropdown.Item  ><Link to="who/Bae" style={{textDecoration:"none" ,color:"black",display:"block"}}>배이</Link></NavDropdown.Item>
                             <NavDropdown.Item ><Link to="who/Jiwoo" style={{textDecoration:"none" ,color:"black",display:"block"}}>지우</Link></NavDropdown.Item>
                             <NavDropdown.Item ><Link to="who/Kyujin" style={{textDecoration:"none" ,color:"black",display:"block"}}>규진</Link></NavDropdown.Item>

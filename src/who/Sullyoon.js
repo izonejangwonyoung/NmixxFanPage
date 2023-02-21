@@ -1,12 +1,12 @@
 import styles from "./Haewon.module.css"
-import haewon_img from "../lilly.jpg"
+import haewon_img from "../Sullyoon.jpg"
 import {useRef, useState} from "react";
 import {FaHeartBroken, FaRegHeart} from "react-icons/fa";
 import data from "./data.json"
 import {GiShatteredHeart} from "react-icons/gi";
 import {Button, Overlay, OverlayTrigger, Tooltip} from "react-bootstrap";
 
-function Lilly() {
+function Sullyoon() {
     let now = new Date();
     let nowYear = now.getFullYear();
     const renderTooltip = (props) => (
@@ -20,13 +20,13 @@ function Lilly() {
     return (
 
         <div>
-            <h4 className={styles.nameplace}>Who Is Haewon?</h4>
+            <h4 className={styles.nameplace}>Who Is Sullyoon?</h4>
             <div className={styles.wrap}>
                 <img className={styles.img_haewon} src={haewon_img} alt=""/>
                 <table className={styles.table}>
                     <tr>
                         <td className={styles.td}>이름</td>
-                        <td className={styles.td}>Lily Jin Park Morrow (릴리 진 박 머로우)
+                        <td className={styles.td}>설윤아
                         </td>
                     </tr>
                     <tr>
@@ -96,4 +96,4 @@ function ShowHeart(props) {
 
 }
 
-export default Lilly;
+export default Sullyoon;
