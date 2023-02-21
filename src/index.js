@@ -4,15 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
-import mongoose from "mongoose";
-
-//
-// const mongoose = require('mongoose')
-//
-// mongoose.connect('mongodb+srv://2000shim:wh0015@cluster0.xkrv3vz.mongodb.net/?retryWrites=true&w=majority\n', {
-//     useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false
-// }).then(() => console.log('MongoDB Connected..'))
-//     .catch(err => console.log(err))
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
